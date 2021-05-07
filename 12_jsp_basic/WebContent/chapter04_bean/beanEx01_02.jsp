@@ -26,6 +26,7 @@
 		bean1.setDeptNm(deptNm);
 		bean1.setMgrNm(mgrNm);
 	%>
+	
 	<!-- 2) Bean을 사용하는 방법1 -->
 	<jsp:useBean id="bean2" class="_04_bean.ProductBean">
 		<jsp:setProperty name="bean2" property="pdCd" value="${param.pdCd}"/>
